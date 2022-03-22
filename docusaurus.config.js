@@ -20,7 +20,7 @@ module.exports = {
       items: [
         {
           to: "docs/3.4/",
-          activeBasePath: "docs",
+          activeBasePath: "javadocs",
           label: "Documentation",
           position: "left",
         },
@@ -28,6 +28,11 @@ module.exports = {
           to: "blog/",
           activeBasePath: "blog",
           label: "Blog",
+          position: "left",
+        },
+        {
+          href: "https://cloudnetservice.eu/cloudnet/docs/",
+          label: "JavaDocs",
           position: "left",
         },
         {
